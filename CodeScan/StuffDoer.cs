@@ -4,7 +4,7 @@ namespace CodeScan
 {
 	public class StuffDoer
 	{
-        public bool DoSomeStuff(string id)
+        public bool DoSomeStuff(string? id)
         {
             using (SqlCommand command = new())
             {
